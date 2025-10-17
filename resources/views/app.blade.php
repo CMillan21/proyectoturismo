@@ -16,7 +16,7 @@
         @inertiaHead
     </head>
     <body class="font-sans antialiased">
-        <h1>HOLA HOLA HOLA HOLA HOLA HOLA HOLA HOLA HOLA HOLA HOLA HOLA HOLA HOLA HOLA HOLA HOLA HOLA HOLA HOLA HOLA HOLA HOLA HOLA</h1>
+        <h1>HOLA2</h1>
         @inertia
     </body>
 </html>

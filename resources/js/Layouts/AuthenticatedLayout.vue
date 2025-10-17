@@ -94,7 +94,7 @@ const user = computed(() => page.props.auth.user);
             </header>
 
             <main class="p-6">
-                <slot />
+                <slot/>
             </main>
         </div>
     </div>
