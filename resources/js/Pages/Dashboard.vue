@@ -1,4 +1,6 @@
 <script setup>
+//como tal todo esto es el dashboard, la tabla
+
 import AuthenticatedLayout from '@/Layouts/AuthenticatedLayout.vue';
 import { Head } from '@inertiajs/vue3';
 
@@ -33,7 +35,7 @@ const eliminarCentro = (id) => {
     <Head title="Panel" />
 
     <AuthenticatedLayout>
-        <template #header>Panel de administración</template> 
+        <template #header></template> 
 
         <div class="bg-white shadow overflow-hidden rounded-lg p-6">
             <h2 class="text-2xl font-bold text-gray-800 mb-4">
