@@ -1,4 +1,3 @@
-
 <script setup>
 import { ref } from 'vue';
 import ApplicationLogo from '@/Components/ApplicationLogo.vue';
@@ -38,7 +37,7 @@ const showingNavigationDropdown = ref(false);
                                     :href="route('dashboard')"
                                     :active="route().current('dashboard')"
                                 >
-                                    Panel de administración
+                                    Dashboard
                                 </NavLink>
                             </div>
                         </div>
@@ -145,8 +144,7 @@ const showingNavigationDropdown = ref(false);
                             :href="route('dashboard')"
                             :active="route().current('dashboard')"
                         >
-                        <!-- Mensaje responsivo que notifica al usuario en que página está -->
-                            Panel de administración
+                            Dashboard
                         </ResponsiveNavLink>
                     </div>
 
